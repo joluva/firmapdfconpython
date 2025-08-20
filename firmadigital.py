@@ -7,7 +7,7 @@ from io import BytesIO
 # Configuración
 input_folder = "pdfs_originales"  # Carpeta con los PDFs a modificar
 output_folder = "pdfs_firmados"   # Carpeta para guardar los PDFs firmados
-signature_image = "firma.png"     # Ruta de la imagen de la firma
+signature_image = "/home/jorge/proyectos/firmapdfconpython/signature_image/Logo.png"  # Ruta de la imagen de la firma
 position = (50, 50)               # Posición (x, y) de la firma en la página (en puntos)
 
 # Crear carpeta de salida si no existe
